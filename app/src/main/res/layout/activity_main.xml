@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ebcfc4"
+    android:orientation="vertical"
+    android:textAlignment="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:gravity="center"
+        android:text="Grade Calculator"
+        android:textColor="#706897"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/quiz"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#fff3e2"
+        android:ems="10"
+        android:fontFamily="@font/alfa_slab_one"
+        android:gravity="center"
+        android:hint="Quizzes 15%"
+        android:inputType="number"
+        android:textColor="#9088d4"
+        android:textColorHighlight="#706897"
+        android:textColorHint="#9088d4"
+        android:textColorLink="#706897" />
+
+    <EditText
+        android:id="@+id/hw"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#fff3e2"
+        android:ems="10"
+        android:fontFamily="@font/alfa_slab_one"
+        android:gravity="center"
+        android:hint="Homeworks 25%"
+        android:inputType="number"
+        android:textColor="#9088d4"
+        android:textColorHighlight="#706897"
+        android:textColorHint="#9088d4"
+        android:textColorLink="#706897"/>
+
+    <EditText
+        android:id="@+id/mid"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#fff3e2"
+        android:ems="10"
+        android:fontFamily="@font/alfa_slab_one"
+        android:gravity="center"
+        android:hint="Midterm 30%"
+        android:inputType="number"
+        android:textColor="#9088d4"
+        android:textColorHighlight="#706897"
+        android:textColorHint="#9088d4"
+        android:textColorLink="#706897"/>
+
+    <EditText
+        android:id="@+id/fin"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#fff3e2"
+        android:ems="10"
+        android:fontFamily="@font/alfa_slab_one"
+        android:gravity="center"
+        android:hint="Final 30%"
+        android:inputType="number"
+        android:textColor="#9088d4"
+        android:textColorHighlight="#706897"
+        android:textColorHint="#9088d4"
+        android:textColorLink="#706897" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="230dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="#9088d4"
+        android:backgroundTint="#9088d4"
+        android:fontFamily="@font/alfa_slab_one"
+        android:gravity="center"
+        android:text="Calculate"
+        android:textColor="#fff3e2"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="230dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#9088d4"
+        android:backgroundTint="#9088d4"
+        android:fontFamily="@font/alfa_slab_one"
+        android:gravity="center"
+        android:text="Reset"
+        android:textColor="#fff3e2"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:gravity="center"
+        android:text="Result"
+        android:textColor="#706897"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
